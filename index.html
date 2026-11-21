@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cashbook — دفتر الحساب على Google Drive</title>
+<style>
+  :root { color-scheme: light dark; }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family: system-ui, -apple-system, "Segoe UI", Tahoma, sans-serif;
+         line-height:1.7; background:#0f172a; color:#e2e8f0; }
+  .wrap { max-width: 780px; margin: 0 auto; padding: 56px 22px 80px; }
+  .badge { display:inline-block; background:#1e293b; border:1px solid #334155; color:#93c5fd;
+           padding:6px 14px; border-radius:999px; font-size:13px; margin-bottom:18px; }
+  h1 { font-size: 40px; line-height:1.2; margin:0 0 12px; }
+  h1 span { color:#60a5fa; }
+  p.lead { font-size:18px; color:#94a3b8; margin:0 0 30px; }
+  .card { background:#1e293b; border:1px solid #334155; border-radius:18px; padding:22px; margin:16px 0; }
+  .card h2 { margin:0 0 8px; font-size:19px; }
+  ul { margin:8px 0 0; padding-inline-start:22px; }
+  li { margin:6px 0; }
+  a { color:#60a5fa; }
+  .links { display:flex; flex-wrap:wrap; gap:10px; margin-top:26px; }
+  .links a { background:#2563eb; color:#fff; text-decoration:none; padding:12px 20px;
+             border-radius:12px; font-weight:600; }
+  .links a.ghost { background:transparent; border:1px solid #334155; color:#cbd5e1; }
+  footer { margin-top:38px; color:#64748b; font-size:13px; }
+  .en { direction:ltr; text-align:left; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="badge">Google Drive · بدون سيرفر · بدون إعلانات</div>
+  <h1>Cashbook<br><span>دفتر حساباتك محفوظ على درايفك</span></h1>
+  <p class="lead">
+    تطبيق أندرويد لتسجيل المصروفات والدخل، بيدخل بحساب Google بتاعك وبيحفظ كل البيانات
+    في مجلد Cashbook على Google Drive بتاعك إنت — مفيش سيرفر بيشوف بياناتك.
+  </p>
+
+  <div class="card">
+    <h2>إيه اللي بيميّزه</h2>
+    <ul>
+      <li>كل حساب Google معزول تمامًا: بياناتك مش بتتخلط مع أي حساب تاني على نفس الموبايل.</li>
+      <li>مشاركة دفتر واحد مع أفراد العيلة بصلاحية «محرر» أو «مشاهد».</li>
+      <li>مزامنة تلقائية كل 15 دقيقة + نسخ احتياطي واسترجاع من Drive.</li>
+      <li>تقارير PDF / Excel / CSV بالعربي والإنجليزي.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>الخصوصية باختصار</h2>
+    <p>التطبيق بيستخدم صلاحية <code>drive.file</code> فقط، ومعناها إنه يشوف ويعدّل الملفات اللي هو
+    أنشأها أو اللي إنت اخترتها بنفسك من Google Picker. مفيش تحليلات، مفيش تتبّع، مفيش إعلانات.</p>
+  </div>
+
+  <div class="links">
+    <a href="./privacy.html">سياسة الخصوصية</a>
+    <a href="./terms.html">شروط الاستخدام</a>
+    <a class="ghost" href="https://github.com/jeangirgis/cashbook">المصدر على GitHub</a>
+  </div>
+
+  <footer>
+    للتواصل: <a href="mailto:jeangirgis@gmail.com">jeangirgis@gmail.com</a><br>
+    آخر تحديث: نوفمبر 2026
+  </footer>
+
+  <hr style="border:none;border-top:1px solid #334155;margin:40px 0">
+
+  <div class="en">
+    <h1 style="font-size:28px">Cashbook for Android</h1>
+    <p class="lead">A private expense and income tracker that signs in with your Google account
+    and stores everything in a <strong>Cashbook</strong> folder in <strong>your own Google Drive</strong>.
+    No backend servers, no analytics, no ads. The app uses only the
+    <code>drive.file</code> scope, so it can access only the files it creates or that you
+    explicitly pick with Google Picker.</p>
+    <p class="lead"><a href="./privacy.html">Privacy Policy</a> ·
+    <a href="./terms.html">Terms of Service</a> ·
+    <a href="mailto:jeangirgis@gmail.com">Contact</a></p>
+  </div>
+</div>
+</body>
+</html>

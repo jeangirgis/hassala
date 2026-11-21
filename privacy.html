@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>سياسة الخصوصية — Cashbook</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { margin:0; font-family: system-ui, -apple-system, "Segoe UI", Tahoma, sans-serif;
+         line-height:1.85; background:#0f172a; color:#e2e8f0; }
+  .wrap { max-width: 820px; margin:0 auto; padding:48px 22px 80px; }
+  h1 { font-size:32px; margin:0 0 6px; }
+  h2 { font-size:20px; margin:30px 0 8px; color:#93c5fd; }
+  p, li { color:#cbd5e1; }
+  a { color:#60a5fa; }
+  .meta { color:#64748b; font-size:14px; margin-bottom:26px; }
+  .box { background:#1e293b; border:1px solid #334155; border-radius:14px; padding:18px; }
+  .en { direction:ltr; text-align:left; border-top:1px solid #334155; margin-top:46px; padding-top:30px; }
+  code { background:#1e293b; padding:2px 6px; border-radius:6px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>سياسة الخصوصية</h1>
+  <div class="meta">تطبيق Cashbook (كاش بوك) لأندرويد — آخر تحديث: نوفمبر 2026</div>
+
+  <div class="box">
+    <strong>باختصار:</strong> التطبيق مبيعملش جمع لبياناتك على أي سيرفر. كل بياناتك المالية
+    محفوظة على جهازك وعلى Google Drive <strong>بتاعك</strong>، ومفيش عندنا وسيلة للوصول ليها.
+  </div>
+
+  <h2>1. مين المسؤول عن التطبيق</h2>
+  <p>التطبيق ده أداة شخصية/عائلية لإدارة الحسابات. للتواصل بشأن الخصوصية:
+     <a href="mailto:jeangirgis@gmail.com">jeangirgis@gmail.com</a>.</p>
+
+  <h2>2. البيانات اللي بنستخدمها</h2>
+  <ul>
+    <li><strong>حساب Google:</strong> بنستخدم تسجيل الدخول بـ Google لمعرفة هوية الحساب
+        (الاسم والإيميل ورقم الحساب الداخلي) وعشان نوصّل لـ Google Drive بتاعك.</li>
+    <li><strong>بيانات الدفتر:</strong> الحسابات، التصنيفات، الحركات، وأي ملاحظات تكتبها.
+        دي بتتخزن في قاعدة بيانات محلية على الموبايل وبتترفع كملفات JSON في مجلد
+        <code>Cashbook</code> على Google Drive بتاعك.</li>
+    <li><strong>ملفات تقارير:</strong> لما تصدّر PDF/Excel/CSV، الملف بيتعمل مؤقتًا على الجهاز
+        وبعدها بتختار إنت تشاركه فين.</li>
+  </ul>
+
+  <h2>3. الصلاحيات اللي بنطلبها</h2>
+  <p>بنطلب صلاحية <code>https://www.googleapis.com/auth/drive.file</code> فقط، ومعناها إن التطبيق
+     يقدر يرى ويعدّل الملفات اللي <strong>هو أنشأها</strong> أو الملفات اللي <strong>إنت اخترتها
+     بنفسك</strong> من Google Picker (مثل دفتر شاركه معاك فرد من عيلتك). التطبيق
+     <strong>مش</strong> قادر يشوف باقي ملفات درايفك.</p>
+  <p>صلاحية <code>GET_ACCOUNTS</code> بتُستخدم فقط لتجديد توكن الدخول في الخلفية من غير ما يفتح
+     شاشة موافقة كل مرة.</p>
+
+  <h2>4. مين بيشوف البيانات</h2>
+  <ul>
+    <li>إحنا (مطوّري التطبيق) <strong>مش</strong> بنشوف بياناتك: مفيش سيرفر خاص بنا.</li>
+    <li>Google بتخزّن الملفات في حسابك حسب سياسة خصوصية Google.</li>
+    <li>لو شاركت دفتر مع شخص، هو بيشوف بيانات الدفتر ده فقط حسب الصلاحية اللي إنت حددتها.</li>
+  </ul>
+
+  <h2>5. مفيش تتبّع ولا إعلانات</h2>
+  <p>مفيش أي تحليلات (analytics)، ولا تتبّع استخدام، ولا إعلانات، ولا بيع بيانات لأي طرف تالت.</p>
+
+  <h2>6. مدة الاحتفاظ وحذف البيانات</h2>
+  <ul>
+    <li>تسجيل الخروج بيوقف المزامنة، والبيانات المحلية تبقى على الجهاز مربوطة بالحساب.</li>
+    <li>تقدر تحذف ملفات التطبيق من Google Drive (مجلد <code>Cashbook</code>) في أي وقت.</li>
+    <li>حذف التطبيق بيحذف قاعدة البيانات المحلية (لو مفيش نسخة احتياطية من النظام).</li>
+    <li>لإلغاء وصول التطبيق بالكامل: <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</li>
+    <li>لطلب حذف أي بيانات متعلقة بالدعم: راسلنا على الإيميل فوق.</li>
+  </ul>
+
+  <h2>7. الأطفال</h2>
+  <p>التطبيق مش موجّه للأطفال أقل من 13 سنة، ومبنطلبش بيانات منهم عن قصد.</p>
+
+  <h2>8. تغييرات على السياسة</h2>
+  <p>أي تغيير هيظهر على الصفحة دي مع تحديث التاريخ. الاستمرار في استخدام التطبيق بعد التغيير
+     معناه موافقتك على النسخة المحدّثة.</p>
+
+  <div class="en">
+    <h1 style="font-size:26px">Privacy Policy (English)</h1>
+    <p class="meta">Cashbook for Android — last updated November 2026</p>
+    <p><strong>Summary:</strong> Cashbook has no backend. Your financial data stays on your device
+    and in a <code>Cashbook</code> folder in your own Google Drive.</p>
+    <h2>Data we process</h2>
+    <ul>
+      <li>Google account identity (name, email, stable account id) to isolate each account's data.</li>
+      <li>Ledger data you enter (accounts, categories, transactions, notes), stored locally and in
+          JSON files in your Google Drive.</li>
+      <li>Exported reports are created on the device and shared only when you choose to.</li>
+    </ul>
+    <h2>Permissions</h2>
+    <p>The app requests only <code>drive.file</code>: it can access files it created or files you
+    explicitly pick with Google Picker. It cannot see the rest of your Drive. The
+    <code>GET_ACCOUNTS</code> permission is used solely to refresh the sign-in token in the
+    background.</p>
+    <h2>Sharing</h2>
+    <p>We (the developer) cannot access your data. Google stores it under your account. When you
+    share a book, the people you invite see that book according to the role you grant.</p>
+    <h2>No tracking, no ads</h2>
+    <p>No analytics, no advertising, no sale of data.</p>
+    <h2>Retention and deletion</h2>
+    <ul>
+      <li>Signing out stops syncing; local data stays on the device for that account.</li>
+      <li>You can delete the <code>Cashbook</code> folder from Google Drive at any time.</li>
+      <li>Revoke app access at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</li>
+      <li>Contact <a href="mailto:jeangirgis@gmail.com">jeangirgis@gmail.com</a> for deletion requests.</li>
+    </ul>
+    <h2>Children</h2>
+    <p>Not directed to children under 13.</p>
+    <h2>Changes</h2>
+    <p>Updates are published on this page with a new date.</p>
+  </div>
+</div>
+</body>
+</html>
